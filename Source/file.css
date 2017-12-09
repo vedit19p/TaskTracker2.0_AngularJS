@@ -1,0 +1,139 @@
+/* line 9, /Users/vedit/Desktop/Homework/Source/file.scss */
+html,
+body,
+col,
+div,
+header,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 18, /Users/vedit/Desktop/Homework/Source/file.scss */
+body {
+  min-height: auto;
+  width: 100%;
+  color: #1b1b1b;
+  background-color: #1b1b1b;
+  /* Helvetica-based sans-serif stack */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 13.75px; }
+
+/* line 28, /Users/vedit/Desktop/Homework/Source/file.scss */
+header {
+  padding: 1.25rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1rem solid #e2e2e2;
+  border-left: 1rem solid #e2e2e2;
+  border-right: 1rem solid #e2e2e2; }
+
+/* line 39, /Users/vedit/Desktop/Homework/Source/file.scss */
+header > h1,
+header > h2 {
+  margin: 0; }
+
+/* line 43, /Users/vedit/Desktop/Homework/Source/file.scss */
+header > h2 {
+  color: #888; }
+
+/* line 47, /Users/vedit/Desktop/Homework/Source/file.scss */
+table {
+  padding: 0.25rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: .4rem; }
+
+/* line 57, /Users/vedit/Desktop/Homework/Source/file.scss */
+td {
+  padding: .75rem; }
+
+/* line 61, /Users/vedit/Desktop/Homework/Source/file.scss */
+tr:nth-child(even) {
+  background-color: #ddd; }
+
+/* line 65, /Users/vedit/Desktop/Homework/Source/file.scss */
+td:nth-child(odd) {
+  font-weight: 800; }
+
+/* line 69, /Users/vedit/Desktop/Homework/Source/file.scss */
+#container {
+  /* Height/Width of the design PNG. */
+  height: 638px;
+  width: 800px;
+  background-color: #f0f0f0;
+  margin: 2rem auto; }
+
+/* line 77, /Users/vedit/Desktop/Homework/Source/file.scss */
+#container:after {
+  clear: both; }
+
+/* line 82, /Users/vedit/Desktop/Homework/Source/file.scss */
+#left-pane,
+#right-pane {
+  padding: 1.25rem;
+  padding-top: 1.5rem;
+  background-color: #fff;
+  width: 42.5%;
+  min-height: 410px;
+  position: relative; }
+
+/* line 92, /Users/vedit/Desktop/Homework/Source/file.scss */
+#left-pane > h2,
+#right-pane > h2 {
+  /* Modern Georgia-based serif stack */
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; }
+
+/* line 97, /Users/vedit/Desktop/Homework/Source/file.scss */
+#left-pane {
+  float: left;
+  border-left: 1rem solid #f0f0f0; }
+
+/* line 102, /Users/vedit/Desktop/Homework/Source/file.scss */
+#right-pane {
+  float: right;
+  border-right: 1rem solid #f0f0f0; }
+
+/* line 108, /Users/vedit/Desktop/Homework/Source/file.scss */
+input[type="date"],
+input[type="text"] {
+  border-color: #ddd;
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 1.25rem;
+  margin: 5px 1px 3px 0px;
+  padding: .55rem;
+  width: 95%;
+  background-color: #ececec; }
+
+/* line 120, /Users/vedit/Desktop/Homework/Source/file.scss */
+label {
+  font-weight: 500; }
+
+/* line 124, /Users/vedit/Desktop/Homework/Source/file.scss */
+button {
+  border-color: #888;
+  border-radius: 0.25em;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  /* Modern Georgia-based serif stack */
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-bottom: 0.5em;
+  padding: .55em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #434343; }
+
+/*# sourceMappingURL=file.css.map */

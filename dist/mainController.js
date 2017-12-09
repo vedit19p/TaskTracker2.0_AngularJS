@@ -1,0 +1,1 @@
+app.controller("mainController",function(o,n){n.get("JS/data.json").success(function(n){o.myData=n,o.onSubmit=function(){o.myData.push(o.formModel),o.formModel=""}})});
